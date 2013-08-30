@@ -12,6 +12,7 @@ license 'bsd';
 name 'Error-Pure-HTTP-JSON';
 requires 'Error::Pure::Utils' => 0.11;
 requires 'Error::Pure::Output::JSON' => 0.01;
+requires 'List::MoreUtils' => 0;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Error-Pure-HTTP-JSON';
@@ -24,7 +25,7 @@ test_requires 'Test::NoWarnings' => 0;
 test_requires 'Test::Pod' => 0;
 test_requires 'Test::Pod::Coverage' => 0;
 tests_recursive;
-version '0.01';
+version '0.02';
 
 # Run.
 WriteAll();
